@@ -1,0 +1,58 @@
+<formed_aquariums>
+  <aquarium>
+    <fish>
+      <name>Neon Tetra</name>
+      <cost>15</cost>
+    </fish>
+    <fish>
+      <name>Betta Fish</name>
+      <cost>25</cost>
+    </fish>
+    <accessory>
+      <name>Hygger aquarium gravel cleaner</name>
+      <cost>150</cost>
+    </accessory>
+  </aquarium>
+  <aquarium>
+    <fish>
+      <name>Goldfish</name>
+      <cost>10</cost>
+    </fish>
+    <fish>
+      <name>Angelfish</name>
+      <cost>15</cost>
+    </fish>
+    <accessory>
+      <name>Hygger aquarium gravel cleaner</name>
+      <cost>150</cost>
+    </accessory>
+  </aquarium>
+  <aquarium>
+    <accessory>
+      <name>Hygger aquarium gravel cleaner</name>
+      <cost>150</cost>
+    </accessory>
+    <reptiles>
+      <name>Rosy Boa</name>
+      <cost>60</cost>
+    </reptiles>
+    <reptiles>
+      <name>House Gecko</name>
+      <cost>45</cost>
+    </reptiles>
+  </aquarium>
+  <aquarium>
+    <accessory>
+      <name>Hygger aquarium gravel cleaner</name>
+      <cost>150</cost>
+    </accessory>
+    <reptiles>
+      <name>Kenyan Sand Boa</name>
+      <cost>70</cost>
+    </reptiles>
+    <reptiles>
+      <name>Green Anole</name>
+      <cost>35</cost>
+    </reptiles>
+  </aquarium>
+</formed_aquariums>

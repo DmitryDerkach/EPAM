@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aquarium_creatures>
+	<fishes>
+		<element>
+			<name>Neon Tetra</name>
+			<cost>15</cost>
+		</element>
+		<element>
+			<name>Betta Fish</name>
+			<cost>25</cost>
+		</element>
+	</fishes>
+	<reptiles>
+		<element>
+			<name>Rosy Boa</name>
+			<cost>60</cost>
+		</element>
+	</reptiles>	
+	<fishes>
+		<element>
+			<name>Goldfish</name>
+			<cost>10</cost>
+		</element>
+	</fishes>	
+	<reptiles>
+		<element>
+			<name>House Gecko</name>
+			<cost>45</cost>
+		</element>
+		<element>
+			<name>Kenyan Sand Boa</name>
+			<cost>70</cost>
+		</element>
+	</reptiles>	
+	<fishes>	
+		<element>
+			<name>Angelfish</name>
+			<cost>15</cost>
+		</element>
+	</fishes>
+	<reptiles>
+		<element>
+			<name>Green Anole</name>
+			<cost>35</cost>
+		</element>
+	</reptiles>
+</aquarium_creatures>
