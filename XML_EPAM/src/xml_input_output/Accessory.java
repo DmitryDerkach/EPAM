@@ -1,10 +1,11 @@
 package xml_input_output;
 
+import java.util.Random;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 @JsonFormat(shape = JsonFormat.Shape.OBJECT)
 
 public enum Accessory {
-
 	FIRST_ACCESORY("Hygger aquarium gravel cleaner", 150),
 	SECOND_ACCESORY("AQQA Aquarium Lights",70),
 	THIRD_ACCESORY("PINVNBY Natural Aquarium Driftwood", 90),
@@ -33,5 +34,13 @@ public enum Accessory {
 	public void setCost(int cost) {
 		this.cost = cost;
 	}
+	
+	public static Accessory getRandomAccessory() {
+		Random random = new Random();
+		Accessory[] accessories = Accessory.values();
+		int randomEnumValue = random.nextInt(accessories.length);
+		return accessories[randomEnumValue];
+	}
+	
 
 }

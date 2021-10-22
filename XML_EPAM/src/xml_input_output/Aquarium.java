@@ -3,9 +3,11 @@ package xml_input_output;
 import java.util.ArrayList;
 import java.util.List;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.dataformat.xml.annotation.*;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
+@JsonPropertyOrder({"accessory", "reptile", "fish"})
 public class Aquarium {
 	@JacksonXmlElementWrapper(useWrapping = false)
 	public List<Fish> fish = new ArrayList<Fish>();
@@ -13,7 +15,7 @@ public class Aquarium {
 	@JacksonXmlElementWrapper(useWrapping = false)
 	public List<Reptile> reptiles = new ArrayList<Reptile>();
 	
-	public Aquarium(List<Fish> fish, Accessory accessory, List<Reptile> reptiles) {
+	public Aquarium(List<Fish> fish, List<Reptile> reptiles, Accessory accessory) {
 		this.fish = fish;
 		this.accessory = accessory;
 		this.reptiles = reptiles;
