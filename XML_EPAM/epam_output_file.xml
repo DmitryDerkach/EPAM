@@ -1,5 +1,6 @@
 <formed_aquariums>
   <aquarium>
+    <totalcost>110</totalcost>
     <accessory>
       <name>AQQA Aquarium Lights</name>
       <cost>70</cost>
@@ -14,9 +15,10 @@
     </fish>
   </aquarium>
   <aquarium>
+    <totalcost>60</totalcost>
     <accessory>
-      <name>Hygger aquarium gravel cleaner</name>
-      <cost>150</cost>
+      <name>API Stress Coat Water Conditioner</name>
+      <cost>35</cost>
     </accessory>
     <fish>
       <name>Goldfish</name>
@@ -28,6 +30,7 @@
     </fish>
   </aquarium>
   <aquarium>
+    <totalcost>175</totalcost>
     <accessory>
       <name>AQQA Aquarium Lights</name>
       <cost>70</cost>
@@ -42,9 +45,10 @@
     </reptiles>
   </aquarium>
   <aquarium>
+    <totalcost>140</totalcost>
     <accessory>
-      <name>PINVNBY Natural Aquarium Driftwood</name>
-      <cost>90</cost>
+      <name>API Stress Coat Water Conditioner</name>
+      <cost>35</cost>
     </accessory>
     <reptiles>
       <name>Kenyan Sand Boa</name>

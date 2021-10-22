@@ -7,18 +7,20 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.dataformat.xml.annotation.*;
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
-@JsonPropertyOrder({"accessory", "reptile", "fish"})
+@JsonPropertyOrder({"totalcost", "accessory", "reptile", "fish"})
 public class Aquarium {
 	@JacksonXmlElementWrapper(useWrapping = false)
 	public List<Fish> fish = new ArrayList<Fish>();
 	public Accessory accessory;
 	@JacksonXmlElementWrapper(useWrapping = false)
 	public List<Reptile> reptiles = new ArrayList<Reptile>();
+	public int totalcost = 0;
 	
-	public Aquarium(List<Fish> fish, List<Reptile> reptiles, Accessory accessory) {
+	public Aquarium(List<Fish> fish, List<Reptile> reptiles, Accessory accessory, int totalcost) {
 		this.fish = fish;
 		this.accessory = accessory;
 		this.reptiles = reptiles;
+		this.totalcost = totalcost;
 	}
 
 	public List<Fish> getFish() {

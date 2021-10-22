@@ -133,7 +133,8 @@ public class XMLInputPOutput {
 			List<Fish> temp = new ArrayList<Fish>();
 			temp.add(fishContainer.get(0));
 			temp.add(fishContainer.get(1));
-			listOfAssembledAquariuns.add(new Aquarium(temp, null, Accessory.getRandomAccessory()));
+			Accessory randomAccessory = Accessory.getRandomAccessory();
+			listOfAssembledAquariuns.add(new Aquarium(temp, null, randomAccessory, temp.get(0).getCost() + temp.get(1).getCost() + randomAccessory.getCost()));
 			fishContainer.remove(0);
 			fishContainer.remove(0);
 		} while (fishContainer.size() != 0);
@@ -143,7 +144,8 @@ public class XMLInputPOutput {
 			List<Reptile> temp = new ArrayList<Reptile>();
 			temp.add(reptileContainer.get(0));
 			temp.add(reptileContainer.get(1));
-			listOfAssembledAquariuns.add(new Aquarium(null, temp, Accessory.getRandomAccessory()));
+			Accessory randomAccessory = Accessory.getRandomAccessory();
+			listOfAssembledAquariuns.add(new Aquarium(null, temp, randomAccessory, temp.get(0).getCost() + temp.get(1).getCost() + randomAccessory.getCost()));
 			reptileContainer.remove(0);
 			reptileContainer.remove(0);
 		} while (reptileContainer.size() != 0);
