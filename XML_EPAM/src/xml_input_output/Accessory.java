@@ -10,7 +10,6 @@ public enum Accessory {
 	SECOND_ACCESORY("AQQA Aquarium Lights",70),
 	THIRD_ACCESORY("PINVNBY Natural Aquarium Driftwood", 90),
 	FOURTH_ACCESORY("API Stress Coat Water Conditioner", 35);
-	
 	String name = "";
 	int cost = 0;
 	

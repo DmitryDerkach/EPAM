@@ -1,8 +1,8 @@
 <formed_aquariums>
   <aquarium>
     <accessory>
-      <name>API Stress Coat Water Conditioner</name>
-      <cost>35</cost>
+      <name>AQQA Aquarium Lights</name>
+      <cost>70</cost>
     </accessory>
     <fish>
       <name>Neon Tetra</name>
@@ -15,8 +15,8 @@
   </aquarium>
   <aquarium>
     <accessory>
-      <name>AQQA Aquarium Lights</name>
-      <cost>70</cost>
+      <name>Hygger aquarium gravel cleaner</name>
+      <cost>150</cost>
     </accessory>
     <fish>
       <name>Goldfish</name>
@@ -29,8 +29,8 @@
   </aquarium>
   <aquarium>
     <accessory>
-      <name>Hygger aquarium gravel cleaner</name>
-      <cost>150</cost>
+      <name>AQQA Aquarium Lights</name>
+      <cost>70</cost>
     </accessory>
     <reptiles>
       <name>Rosy Boa</name>
@@ -43,8 +43,8 @@
   </aquarium>
   <aquarium>
     <accessory>
-      <name>Hygger aquarium gravel cleaner</name>
-      <cost>150</cost>
+      <name>PINVNBY Natural Aquarium Driftwood</name>
+      <cost>90</cost>
     </accessory>
     <reptiles>
       <name>Kenyan Sand Boa</name>
